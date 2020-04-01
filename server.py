@@ -5,5 +5,9 @@ app = Flask(__name__)
 def index():
     return '<h1>Hello World</h1>'
 
+@app.route('/another')
+def another():
+    return '<h2>Another</h2>'
+
 if __name__ == '__main__': # Revisit previous challenge if you're uncertain what this does https://code.nextacademy.com/lessons/name-main/424
    app.run()
