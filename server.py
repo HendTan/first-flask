@@ -11,7 +11,7 @@ def another():
 
 @app.route('/user/<username>')
 def show(username):
-    return f"Hi {username}"
+    return f"<h1>Hi {username}</h1>"
 
 if __name__ == '__main__': # Revisit previous challenge if you're uncertain what this does https://code.nextacademy.com/lessons/name-main/424
    app.run()
